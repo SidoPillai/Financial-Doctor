@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark">
+
+    <TextView
+        android:text="Responses"
+        android:textSize="28sp"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/textViewtitle" />
+
+    <TextView
+        android:text="Mom - NO"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="66dp"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textViewtitle"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Dad - YES"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_green_dark"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginTop="33dp" />
+
+    <TextView
+        android:text="Brother - YES"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_green_dark"
+        android:id="@+id/textView5"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/imageButton"
+        android:background="@drawable/ic_disagree"
+        android:layout_alignTop="@+id/imageButton2"
+        android:layout_toStartOf="@+id/textViewtitle" />
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/imageButton2"
+        android:background="@drawable/ic_flag"
+        android:layout_alignTop="@+id/imageButton3"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/imageButton3"
+        android:background="@drawable/ic_agree"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/textViewtitle"
+        android:layout_marginBottom="33dp" />
+
+    <!--<TextView-->
+        <!--android:text="Number of Peers to ask"-->
+        <!--android:textSize="28sp"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/textView6"-->
+        <!--android:layout_below="@+id/textView5"-->
+        <!--android:layout_alignStart="@+id/textView5"-->
+        <!--android:layout_marginTop="53dp" />-->
+
+</RelativeLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@android:color/background_dark">
+
+    <TextView
+        android:text="Let them know"
+        android:textSize="34sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/textView2" />
+
+    <CheckBox
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Mom"
+        android:textSize="22sp"
+        android:id="@+id/checkBox"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp" />
+
+    <CheckBox
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Dad"
+        android:textSize="22sp"
+        android:id="@+id/checkBox2"
+        android:layout_below="@+id/checkBox"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Friend"
+        android:id="@+id/checkBox3"
+        android:layout_below="@+id/checkBox2"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Brother"
+        android:id="@+id/checkBox4"
+        android:layout_below="@+id/checkBox3"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Sister"
+        android:textSize="22sp"
+        android:id="@+id/checkBox5"
+        android:layout_below="@+id/checkBox4"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Add an email address"
+        android:textSize="22sp"
+        android:textColor="@android:color/darker_gray"
+        android:id="@+id/checkBox6"
+        android:layout_below="@+id/checkBox5"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="SHARE"
+        android:id="@+id/button6"
+        android:layout_below="@+id/checkBox6"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

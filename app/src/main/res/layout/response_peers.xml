@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@android:color/background_dark">
+
+    <TextView
+        android:text="People's Verdict"
+        android:textSize="28sp"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/textViewtitle" />
+
+    <TextView
+        android:text="No"
+        android:textSize="34sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:id="@+id/textViewtitle21" />
+
+    <TextView
+        android:text="30 %"
+        android:textSize="28sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewtitle2"
+        android:layout_marginLeft="20dp"
+        android:layout_alignTop="@+id/progressBar"
+        android:layout_toEndOf="@+id/textViewtitle" />
+
+    <ProgressBar
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:id="@+id/progressBar"
+        android:secondaryProgress="30"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/textViewtitle21"
+        android:layout_alignEnd="@+id/textViewtitle"
+        android:layout_marginEnd="38dp" />
+
+    <TextView
+        android:text="Responses  20"
+        android:textSize="28sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_blue_dark"
+        android:id="@+id/textView7"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/progressBar" />
+
+    <TextView
+        android:text="Agree  6"
+        android:textSize="28sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_green_dark"
+        android:id="@+id/textView8"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/textView7"
+        android:layout_alignStart="@+id/textView7" />
+
+    <TextView
+        android:text="Disagree  14"
+        android:textSize="28sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_dark"
+        android:id="@+id/textView9"
+        android:layout_below="@+id/textView8"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginTop="40dp" />
+
+</RelativeLayout>
